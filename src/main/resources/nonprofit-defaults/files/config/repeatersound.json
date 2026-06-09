@@ -1,0 +1,9 @@
+{
+  "version": "1.6.1",
+  "base_pitch": "0.5",
+  "volume": "0.3",
+  "use_random": "false",
+  "interaction_mode": "NORMAL",
+  "alarm_message": "Clicked {Block} At: {Pos}",
+  "disabled_message": "Interaction cancelled by RSMod"
+}

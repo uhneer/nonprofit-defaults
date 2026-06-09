@@ -1,0 +1,41 @@
+{
+  "active": "nonprofit_je",
+  "disabled": {
+    "nonprofit_je": [],
+    "vanilla_animations": [
+      "bucketlib",
+      "mstv-base",
+      "mstv-masv",
+      "mstv-mframev",
+      "mstv-mfrv",
+      "mstv-mtoolv",
+      "mstv-mweaponv",
+      "nemos-moreladdervariants",
+      "onlyhammersandexcavators",
+      "quad-mstv-mrailv",
+      "quad-mstv-mtv",
+      "woodenbucket"
+    ],
+    "vanilla_no_animations": [
+      "betteranimationscollection",
+      "bucketlib",
+      "buttonanimations",
+      "cameraoverhaul",
+      "fancy-door-anim",
+      "mr_spawn_animationscompats",
+      "mstv-base",
+      "mstv-masv",
+      "mstv-mframev",
+      "mstv-mfrv",
+      "mstv-mtoolv",
+      "mstv-mweaponv",
+      "nemos-moreladdervariants",
+      "notenoughanimations",
+      "onlyhammersandexcavators",
+      "quad-mstv-mrailv",
+      "quad-mstv-mtv",
+      "spawnanimations",
+      "woodenbucket"
+    ]
+  }
+}

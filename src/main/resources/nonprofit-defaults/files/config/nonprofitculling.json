@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "workWithShaders": false,
+  "minCullChunks": 1,
+  "minRenderDistance": 8,
+  "hzbReadbackMip": 6,
+  "depthBias": 0.01,
+  "cullEntities": true,
+  "cullBlockEntities": true,
+  "cullParticles": true,
+  "debugOverlay": false,
+  "logStats": false,
+  "logIntervalSeconds": 60,
+  "chatStatsIntervalSeconds": 0
+}

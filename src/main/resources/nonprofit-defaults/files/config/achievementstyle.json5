@@ -1,0 +1,16 @@
+{
+	"achievementWidth": 170,
+	"achievementHeight": 40,
+	"verticalOffset": 25,
+	"slideDuration": 40,
+	"displayDuration": 120,
+	"backgroundColor": -536870912,
+	"borderColor": 4886754,
+	"rareBorderColor": 10170623,
+	"enableShineEffect": true,
+	"achievementSpacing": 5,
+	"achievementPosition": 0,
+	"soundEnabled": true,
+	"soundVolume": 0.26,
+	"achievementLimit": 3
+}

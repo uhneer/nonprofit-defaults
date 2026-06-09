@@ -1,0 +1,8 @@
+{
+  "rustTarget": null,
+  "tweakExpText": false,
+  "sortTextRenderLayers": false,
+  "fatalOnBrokenMethodCall": false,
+  "debugRefcountChanges": false,
+  "disableEasterEggs": false
+}

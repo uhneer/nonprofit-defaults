@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "nonprofit-defaults",
+  "version": "${version}",
+  "name": "Nonprofit's Pack Defaults",
+  "description": "Ships the pack's curated settings as self-healing defaults. Bundles a snapshot of options.txt and the whole config/ folder and, at preLaunch (before the game reads anything), restores any file that is MISSING. It never overwrites an existing file, so your live tweaks are untouched — but a fresh install, a wiped config, or a reset comes back up with the intended settings.",
+  "authors": ["nonprofit"],
+  "contact": {},
+  "license": "MIT",
+
+  "environment": "*",
+
+  "entrypoints": {
+    "preLaunch": [
+      "dev.nonprofit.defaults.NonprofitDefaults"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

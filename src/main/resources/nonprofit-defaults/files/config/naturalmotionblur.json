@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "refreshRateScaling": true,
+  "motionBlurStrength": 1.0,
+  "recordingOverlayTargetFPS": 60,
+  "blurAlgorithm": "VELOCITY_BASED"
+}

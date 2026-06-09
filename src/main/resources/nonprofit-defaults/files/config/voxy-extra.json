@@ -1,0 +1,9 @@
+{
+  "fix_nether_fog": true,
+  "save_old_lods": false,
+  "flashback_ingest": false,
+  "server_blacklist": false,
+  "server_blacklist_list": [],
+  "lod_mirror": true,
+  "lod_mirror_list": []
+}

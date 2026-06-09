@@ -1,0 +1,15 @@
+{
+  "_README": [
+    "VariantBridge makes 'variant' items count as their stock counterpart in ANY recipe (vanilla or modded, present or future).",
+    "Each mapping: 'stock' is a base item id; 'variantTags' is a list of item tags whose members are ALSO accepted wherever that stock item is required.",
+    "Purely additive: it never removes an existing recipe match, only adds variant acceptance. Restart the game after editing.",
+    "Add support for any future variant mod by appending another { stock, variantTags } entry. Set 'enabled': false to disable one without deleting it.",
+    "CAUTION: do NOT map a single tier to a cross-tier tool/weapon tag (e.g. 'mstv-mtoolv:variant_axes' mixes wood..netherite) — that would let a wooden variant satisfy a netherite recipe. Map per-tier tags only."
+  ],
+  "mappings": [
+    { "stock": "minecraft:stick",          "variantTags": ["mstv-base:sticks", "c:rods/wooden"] },
+    { "stock": "minecraft:torch",          "variantTags": ["quad-mstv-mtv:fire_torch_variants"] },
+    { "stock": "minecraft:soul_torch",     "variantTags": ["quad-mstv-mtv:soul_torch_variants"] },
+    { "stock": "minecraft:redstone_torch", "variantTags": ["quad-mstv-mtv:redstone_torches"] }
+  ]
+}

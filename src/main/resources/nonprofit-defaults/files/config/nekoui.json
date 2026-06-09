@@ -1,0 +1,84 @@
+{
+  "backgroundFrame": 30,
+  "background": "grass",
+  "agreedToTerms": true,
+  "discordRpc": {
+    "enabled": true,
+    "updateInterval": 1000,
+    "display": {
+      "showHealth": true,
+      "showArmor": true,
+      "showLevel": true,
+      "showTime": true,
+      "showBiome": true,
+      "showDimension": true,
+      "showParty": true,
+      "showHead": true,
+      "dynamicImages": true,
+      "useTemplates": false,
+      "activeTemplate": "detailed",
+      "timeFormat": "ELAPSED"
+    },
+    "privacy": {
+      "showCoordinates": false,
+      "showServerIp": false,
+      "showServerName": true,
+      "showPlayerCount": false,
+      "showWorldName": true,
+      "obfuscateInHardcore": true,
+      "hideWhileAfk": false,
+      "autoDetectActivity": true,
+      "detectAfk": true,
+      "autoDetection": 1000,
+      "afkTimeout": 300000,
+      "coordinatePrecision": 2
+    },
+    "customMessages": {
+      "paused": "Game paused",
+      "menu": "Browsing menus",
+      "loading": "Loading world..."
+    },
+    "templates": {
+      "streaming": {
+        "name": "Streaming",
+        "details": "🔴 Live on Twitch",
+        "state": "{gamemode} - {dimension}",
+        "showStats": false,
+        "showLocation": false
+      },
+      "detailed": {
+        "name": "Detailed",
+        "details": "{gamemode} in {dimension}",
+        "state": "{activity} | {stats}",
+        "showStats": true,
+        "showLocation": true
+      },
+      "casual": {
+        "name": "Casual",
+        "details": "Playing Minecraft",
+        "state": "Having fun",
+        "showStats": false,
+        "showLocation": false
+      }
+    },
+    "trackStatistics": true,
+    "advanced": {
+      "autoReconnect": true,
+      "maxReconnectAttempts": 5,
+      "reconnectDelay": 5000,
+      "debugMode": false,
+      "useButtons": true,
+      "joinButtonText": "Join Server",
+      "spectateButtonText": "Spectate",
+      "activityPriorities": {
+        "BUILDING": 4,
+        "IDLE": 1,
+        "AFK": 0,
+        "CRAFTING": 2,
+        "EXPLORING": 3,
+        "FIGHTING": 10,
+        "MINING": 5
+      }
+    }
+  }
+}

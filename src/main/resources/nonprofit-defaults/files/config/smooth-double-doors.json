@@ -1,0 +1,14 @@
+{
+  "connectDoors": true,
+  "redstoneDoubleDoors": true,
+  "connectTrapdoors": false,
+  "redstoneDoubleTrapdoors": false,
+  "connectFenceGates": false,
+  "redstoneDoubleFenceGates": false,
+  "animateDoors": true,
+  "animateTrapdoors": true,
+  "animateFenceGates": true,
+  "doorSpeed": 1.0,
+  "trapdoorSpeed": 1.0,
+  "fenceGateSpeed": 1.0
+}
